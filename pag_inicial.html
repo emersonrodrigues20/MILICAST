@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milicast</title>
+    <link rel="shortcut icon" href="imagens/icomilicast.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/estilosite.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="pag_inicial.html">Início</a></li>
+                <li><a href="testepalylist.html">Playlists</a></li>
+                
+            </ul>
+        </nav>
+
+        <div class="banner">
+            <video autoplay muted loop>
+                <source src="videos/milicastvideo.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos em HTML5.
+            </video>
+            <div class="textosobreposto"></div>
+            <div class="cont_sobreposto">
+                <h1>Milicast</h1>
+                <p>O portal Podcast do Milico!</p>
+                
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="caixaEmail">
+            <h2> Quer falar com os Milicos?</h2>
+            <form action="estilos/aindaNaoseichefe.php" method="post">
+                <label for="inome">Nome:</label>
+                <input type="text" id="inome" name="nome" required>
+    
+                <label for="iemail">Email:</label>
+                <input type="email" id="iemail" name="email" required>
+    
+                <label for="iassunto">Assunto:</label>
+                <input type="text" id="iassunto" name="assunto" required>
+    
+                <label for="imensagem">Mensagem:</label>
+                <textarea id="mensagem" name="imensagem" rows="4" required></textarea>
+    
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <ul class="midiasSociais">
+            <h2>Milicast</h2>
+            <h3>siga-nos</h3>
+            <li><a href="https://www.youtube.com/channel/UCmNNCOG6ZDHFv5s-4jcGhkg">youtube</a></li>
+            <li><a href="https://instagram.com/victorcrf7?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr">instagram</a></li>
+            <li><a href="https://open.spotify.com/playlist/44nwx6Yfy7FsXYaZKjCmWn?si=pncB5upCQGGTg6_03-CV3w&pi=u-LU8tuWBcTL-U">spotfy</a></li>
+             <br>
+             <br>
+             <h2>Programação</h2>
+            <h3>Podcast</h3>
+            <li>Segundas-Feiras 12:00 -Milicast</li>
+            <li>Quartas-feiras 16:00- Milicast Ao-vivo</li>
+             <li>
+
+             </li>
+        </ul>
+    </main>
+    <footer>
+        <div class="criadores">
+            <h2>Criadores:</h2>
+            <div id="criador1">
+                <img src="imagens/foto R Mendes.jpeg" alt="Emerson">
+                <br>
+                <p>R mendes</p>
+                <p><a href="https://instagram.com/emerson_rm7?igshid=OGQ5ZDc2ODk2ZA==">EmersonRm_7</a></p>
+            </div>
+          
+            <div id="criador2">
+                <img src="imagens/Victor Oliveira foto.png" alt="Victor Oliveira">
+                <p>Victor Oliveira</p>
+                <p><a href="https://instagram.com/victorcrf7?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr">victorcrf7</a></p>
+            </div>
+        </div>
+    
+        <div class="texto3">
+            <img src="imagens/icomilicast.jpg" alt="milicast">
+
+            <h2>Contato</h2>
+            <p>Dúvidas e xingamentos e para: <a href="mailto:podcastmilicast@gmail.com">podcastmilicast@gmail.com</a></p>
+        </div>
+        
+    </footer>
+</body>
+
+</html>

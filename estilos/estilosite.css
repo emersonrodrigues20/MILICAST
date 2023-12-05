@@ -1,0 +1,275 @@
+@charset "UFT-8";
+
+/* Estilos gerais para a página */
+:root {
+    --cor01: #687319;
+    --cor02: #85845A;
+    --cor03: #BFA98E;
+    --cor04: #D9CDBF;
+    --cor05: #0D0D0D;
+
+
+
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor05);
+
+}
+
+/* Estilização do cabeçalho (header) e da barra de navegação (nav) */
+header {
+    background-color: var(--cor02);
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+/* Estilização dos links quando o mouse passa sobre eles */
+nav a:hover {
+    text-decoration: underline;
+    background-color: var(--cor01);
+}
+
+/* Estilização do banner */
+.banner {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+/* Estilização do vídeo de fundo */
+.banner video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+/* Estilização da sobreposição semi-transparente */
+.banner .textosobreposto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.737);
+}
+
+/* Estilização do conteúdo sobreposto */
+.banner .cont_sobreposto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.banner h1 {
+    font-size: 36px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+
+
+.banner a:hover {
+    background-color: #ff3300;
+}
+
+/*final do cabeçalho do site*/
+
+/* inicio do conteudo principal */
+main {
+    text-align: justify;
+    color: white;
+    display: flex;
+    width: 100%;
+}
+.caixaEmail {
+    display: flexbox;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    background-color:var(--cor05);
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 850px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: var(--cor01);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 5em;
+}
+
+button:hover {
+    background-color:var(--cor02);
+}
+
+
+.midiasSociais{
+    display: inline-flexbox;
+    margin-left: 11em;
+    width: 450px;
+    background-color:var(--cor05);
+    color:var(--cor02);
+    position: relative;
+    margin-top: 18px;
+    
+}
+
+
+.midiasSociais h2,h3,li{
+    margin-top: 18px;
+    text-align: right;
+    list-style: none;
+    left: 10px;
+   text-align: end;
+}
+.midiasSociais a{
+    text-decoration: none;
+    color: var(--cor02);
+}
+.midiasSociais h2,h3{
+    color: white;
+}
+.midiasSociais a:hover{
+    color:#BFA98E;
+    text-decoration: underline;
+}
+/*final do caonteudo principal*/
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+footer img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    align-items: center;
+
+    
+}
+
+.criadores{
+    background-color:var(--cor05);
+    display: flex;
+}
+.criadores #criador1{
+    background-color:var(--cor05);
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    
+}
+.criadores #criador2{
+    background-color:var(--cor05);
+    width: 400px;
+    height: 300px;
+    margin: auto;
+   
+    
+}
+#criador1 a{
+    text-decoration: none;
+    color: var(--cor02);
+}
+#criador2 a{
+    text-decoration: none;
+    color: var(--cor02);
+}
+#criador1 a:hover{
+    text-decoration: underline;
+    color: var(--cor03);
+}
+#criador2 a:hover{
+    text-decoration: underline;
+    color: var(--cor03);
+}
+.texto2{
+    background-color: white;
+    color: var(--cor05);
+    text-align: justify;
+    width: 100%;
+    height:100%;
+
+}
+.texto2 p,h2 {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    
+    
+}
+
+.texto3{
+    background-color: var(--cor02);
+}
+.texto3 p,h2,img {
+    margin: 10px;
+    
+}
+.texto3 a{
+    text-decoration: none;
+    color: white;
+
+}
+.texto3 a:hover{
+    text-decoration: underline;
+    color: var(--cor01);
+}
